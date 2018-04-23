@@ -26,10 +26,11 @@ public class Sprite implements Move {
 
     }
 
-    public void paint(Graphics g){
-        g.drawRect(10,10,10,10);
+    public void paint(Graphics2D g){
+        int xp = (int) (Map.TILE_SIZE * x);
+        int yp = (int) (Map.TILE_SIZE * y);
 
-
+        g.drawImage(image, (int)(xp-16), (int)(yp-16), null);
     }
 
 

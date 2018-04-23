@@ -47,7 +47,7 @@ public class Map {
     }
 
 
-    public void paint(Graphics g) {
+    public void paint(Graphics2D g) {
 
 
         for (int x=0;x<WIDTH;x++) {
